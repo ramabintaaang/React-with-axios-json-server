@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+// import HelloComponent from './component/HelloComponent';
+// import YoutubeComponent from './component/Youtube/YoutubeComponent';
+// import Home from './container/Home/Home';
 import reportWebVitals from './reportWebVitals';
+import BlogPost from './container/BlogPost/BlogPost';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BlogPost />
   </React.StrictMode>,
   document.getElementById('root')
 );
